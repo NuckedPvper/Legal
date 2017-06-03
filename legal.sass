@@ -1,0 +1,50 @@
+/* LEGAL.CSS BY REXSDEV.COM 
+$headers: "Montserrat", sans-serif
+$body: "Nunito", sans-serif
+$color: #0a7df2
+
+#legal
+  padding: 25px
+  font-family: $body
+  .page-title
+    font-size: 38px
+    color: #D31F2B
+    text-align: center
+  h1
+    font-size: 36px
+    color: #333
+    font-family: $headers
+  h2
+    font-size: 24px
+    color: $color
+    font-weight: 500
+    font-family: $headers
+  p
+    margin: 10px 35px 10px
+    font-size: 16px
+    font-weight: 300
+  b
+    font-size: 18px
+    color: #000000
+    font-weight: 900
+  .section
+    padding: 5px
+  .sub-section
+    margin-bottom: 15px
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 426px)
+  #legal
+    p, b
+      text-align: center
+
+@media only screen and (min-device-width: 680px) and (max-device-width: 768px)
+  #legal
+    p, b
+      text-align: left
+
+@media print
+  .no-print
+    display: none !important
+    *
+      display: none !important
